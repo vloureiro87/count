@@ -3,8 +3,10 @@ Java web application with a simple HTML interface, with just a label and a butto
 The purpose of this application was to learn how to use websockets.
 
 # How it works
-Several clients can be connected at the same time. Every time a new one is connected, receives the atual count value.
-If you click on the button "Count" it will increase the value by one and every client connected will receive the new value without requesting it and refresh.
+	•	UI composed by a button and a label 
+	•	After pushing the button each label in all clients with the app running are updated in real time with a counter value  
+	•	This value is incremented every time an user pushes the button 
+	•	Each time the app is started on a device, the label value should show the total amount of clicks so far
 
 # Technologies used
 - HTML5;
